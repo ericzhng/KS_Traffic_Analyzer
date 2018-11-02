@@ -6,6 +6,7 @@ import java.awt.image.DataBufferByte;
 /**
  * Created by Krzysiek on 2016-07-23.
  */
+
 public class ImageProcessor {
 
     public BufferedImage toBufferedImage(Mat matrix) {

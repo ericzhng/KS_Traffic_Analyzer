@@ -8,6 +8,7 @@ import java.io.IOException;
  * Created by Krzysiek on 2016-07-23.
  */
 public class Application {
+
     static {
         try {
             System.loadLibrary(Core.NATIVE_LIBRARY_NAME); // used for tests. This library in classpath only
